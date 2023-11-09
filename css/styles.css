@@ -91,29 +91,27 @@ body {
 
 .info_section h3 {
   font-size: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .info_section a {
-  padding: 15px;
+  padding: 10px 30px;
   font-size: 30px;
   text-decoration: none;
-  color: purple;
+  color: white;
   font-weight: 600;
-  background-color: rgb(224, 224, 224);
-  border: 2px solid grey;
+  background-color: rgb(87, 158, 182);
   border-radius: 50px;
 }
 
 .info_section a:hover {
-  padding: 15px;
-  font-size: 30px;
+  padding: 10px 30px;
+  font-size: 28px;
   text-decoration: none;
-  color: rgb(231, 231, 231);
+  color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: rgb(161, 2, 161);
+  background-color: rgb(127, 32, 190);
   border-radius: 50px;
-  border: 0px solid grey;
   transition: 0.3s;
 }
 
