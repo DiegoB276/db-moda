@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  min-width: 550px;
+}
+
+.header_page {
+  background-color: black;
+  text-align: center;
+  height: 120px;
+}
+
+.title_page {
+  color: white;
+  font-size: 50px;
+  font-family: "Caveat", cursive;
+  padding-bottom: 15px;
+}
+
+.header_page h2:hover {
+  color: rgb(197, 129, 140);
+  font-size: 50px;
+  font-family: "Caveat", cursive;
+  padding-bottom: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.menu {
+  display: block;
+}
+
+.menu a {
+  padding: 5px 30px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+  color: rgb(252, 252, 212);
+  background-color: rgb(36, 36, 36);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+/*Inicio Estilos de la página Inicio*/
+
+.main_container {
+  background-image: url(https://media.gettyimages.com/id/1291422886/es/v%C3%ADdeo/animaci%C3%B3n-de-fondo-limpia-suave-y-brillante-dise%C3%B1o-abstracto-simple-hermoso-de-movimiento.jpg?s=640x640&k=20&c=RfXpirvR3w_awcLMBlGB1CAvWuWDrh-UIh31FUlBaGw=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+
+  font-family: "Caveat", cursive;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.main_container h2 {
+  color: white;
+  font-size: 90px;
+  padding-top: 50px;
+}
+
+.main_container h3 {
+  padding-top: 30px;
+  color: white;
+  font-size: 30px;
+}
+
+.info_section {
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.info_section h2 {
+  padding-top: 70px;
+  font-size: 50px;
+}
+
+.info_section h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.info_section a {
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: purple;
+  font-weight: 600;
+  background-color: rgb(224, 224, 224);
+  border: 2px solid grey;
+  border-radius: 50px;
+}
+
+.info_section a:hover {
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  font-weight: 600;
+  background-color: rgb(161, 2, 161);
+  border-radius: 50px;
+  border: 0px solid grey;
+  transition: 0.3s;
+}
+
+/*Final de  Estilos de la página Inicio*/
+
+/*Inicio Estilos de la página Productos*/
+
+.container {
+  padding: 30px 50px;
+  display: grid;
+  gap: 30px;
+}
+
+.card {
+  height: 500px;
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
+}
+
+.card:hover {
+  height: 500px;
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 15px;
+}
+
+.img_container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  opacity: 70%;
+}
+
+.img_container img:hover {
+  height: 205px;
+  width: 205px;
+  opacity: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.information {
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.information h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.information p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.information h3 {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+/*Final de Estilos de la página Productos*/
+
+/*Inicio de la página Contacto*/
+
+.main_contact_section {
+  height: 450px;
+  background-image: url(https://www.graficasolver.es/wp-content/uploads/2017/07/fondo-contacto-olver.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+  opacity: 90%;
+}
+
+.main_contact_section h2 {
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: rgb(151, 151, 151);
+  font-size: 65px;
+}
+
+.contact_info {
+  height: 750px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+}
+
+.contact_info h3 {
+  padding-top: 20px;
+  font-size: 45px;
+}
+
+.contact_info p {
+  padding-top: 20px;
+  font-size: 35px;
+  color: rgb(73, 73, 73);
+}
+
+.space {
+  height: 50px;
+}
+
+.back_to_main {
+  text-align: center;
+  background-color: rgb(84, 145, 165);
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.back_to_main:hover {
+  text-align: center;
+  background-color: rgb(124, 187, 209);
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 23px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+/*Final de la página Contacto*/
+
+
+/*Inicio de la página Nosotros*/
+
+.ours_information{
+  height: 600px;
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+}
+
+.ours_information h2{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.ours_information p{
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 25px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+/*Final de la página Nosotros*/
+
+#footer_page {
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  background-color: black;
+  height: 200px;
+  color: rgb(78, 78, 78);
+  padding-top: 20px;
+}
+
+/*----------------Resoluciones------*/
+
+/*Pantalla de Escritorio*/
+@media (min-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*Pantalla Tableta*/
+@media (min-width: 600px) and (max-width: 999px) {
+  .container {
+    padding: 10px 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main_container h2 {
+    font-size: 60px;
+  }
+
+  .info_section {
+    height: 550px;
+  }
+
+  .main_contact_section {
+    height: 600px;
+  }
+
+  .main_contact_section h2 {
+    font-size: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+  }
+
+  .contact_info {
+    height: 800px;
+  }
+
+  .ours_information{
+    height: 800px;
+  }
+
+
+  .ours_information p{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+/*Pantalla Movil*/
+@media (max-width: 599px) {
+  .container {
+    padding: 20px 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .img_container img {
+    height: 190px;
+    width: 190px;
+    border-radius: 100px;
+    opacity: 70%;
+  }
+
+  .main_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main_container h2 {
+    font-size: 50px;
+  }
+
+  .main_container h3 {
+    font-size: 30px;
+  }
+
+  .info_section {
+    height: 550px;
+  }
+
+  .main_contact_section h2 {
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main_contact_section {
+    height: 500px;
+  }
+
+  .contact_info {
+    height: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact_info h3 {
+    height: 60px;
+    padding-bottom: 60px;
+  }
+
+  .contact_info p {
+    height: 60px;
+  }
+
+  .ours_information{
+    height: 1000px;
+  }
+
+  .ours_information p{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
